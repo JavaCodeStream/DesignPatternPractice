@@ -13,6 +13,8 @@ import org.checkerframework.checker.units.qual.C;
  * The method creates an object of the current class and carries over all of the field
  * values of the old object into the new one.
  *
+ * Use the Prototype pattern when your code shouldn’t depend on the concrete classes
+ * of objects that you need to copy.
  */
 interface Shape {
     Shape clone();
